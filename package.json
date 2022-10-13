@@ -2,6 +2,7 @@
   "name": "estacionamiento",
   "version": "0.0.0",
   "scripts": {
+    "serve": "vite serve",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview --port 4173"
