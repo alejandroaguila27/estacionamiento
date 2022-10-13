@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto");
+.content-p {
+  border: none;
+  border-radius: 15px;
+  width: 18%;
+  height: auto;
+  text-align: center;
+  margin: 30px;
+  margin-bottom: 0;
+  font-family: "Roboto";
+  background-color: #093545;
+  padding: 50px;
+  color: white;
+}
+.content-p .profile {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 15px;
+  color: black;
+}
+.content-p .profile img {
+  width: 150px;
+  border-radius: 90px;
+}
+.content-p .panel {
+  margin: auto;
+  width: 100%;
+  margin-bottom: 0;
+}
+.content-p .panel .item {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: auto;
+  background-color: #20DF7F;
+  border-radius: 5px;
+}
+.content-p .panel .item p {
+  padding: 10px;
+}
+.content-p .panel .item a:-webkit-any-link {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+.content-p .panel .item.primary {
+  background-color: red;
+}/*# sourceMappingURL=profilec.css.map */

@@ -1,0 +1,7 @@
+body {
+  background-color: #fff;
+}
+body .content {
+  display: flex;
+  justify-content: left;
+}/*# sourceMappingURL=profile.css.map */
