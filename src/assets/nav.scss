@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto");
+nav{
+    background-color: #011336;
+    display: flex;
+    justify-content: right;
+}
+a:-webkit-any-link {
+    font-family: 'Roboto';
+    color: #FFF;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 15px;
+    border-radius: 10px;
+}
+a:hover{
+    background-color: rgb(3, 107, 107);
+}

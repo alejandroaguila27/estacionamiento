@@ -1,23 +1,12 @@
 <template>
-  <nav>
-    <RouterLink to="/">
-      Home
-    </RouterLink>
-    <RouterLink to="/login">
-      Login
-    </RouterLink>
-    <RouterLink to="/profile">
-      profile
-    </RouterLink>
-    <RouterLink to="/about">
-      About
-    </RouterLink>
-  </nav>
+  <Nav/>
   <router-view/>
 </template>
-<script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import './assets/base.css'
+<script>
+  import './assets/base.css'
+  import { RouterLink, RouterView } from 'vue-router'
+  import Nav from './components/Nav.vue'
+  export default{
+      components: { Nav }
+    }
 </script>
-
-
